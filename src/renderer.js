@@ -4,7 +4,7 @@
 // 页面加载完成时触发
 function onLoad() {
     window.LLAPI.on("dom-up-messages", (message) => {
-        console.log(message);
+        //console.log(message);
         let text = message.innerText;
         if(text.indexOf('[自动回复]') != -1){
             //console.log(message);
